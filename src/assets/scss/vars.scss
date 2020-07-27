@@ -1,0 +1,16 @@
+$primary: #224043;
+$secundary: #68a7af;
+
+$acent: #ad5a4a;
+$light: #accce1;
+$dark: #5f6661;
+
+$on-primary: #f8f9f9;
+$secundary-variant: #91b7cb;
+$background: #b5cfa4;
+
+$white: #fff;
+
+@mixin gardient_card() {
+  background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
